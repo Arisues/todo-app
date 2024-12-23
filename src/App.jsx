@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
-  const [filter, setFilter] = useState("all");
+  const [filter, setFilter] = useState("all...");
 
   const addTask = (task) => {
     if (task.trim()) {
